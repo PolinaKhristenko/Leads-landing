@@ -48,12 +48,12 @@ default:
                                     <div class="form1__fill1"></div>
 
 
-                                    <button type="button" class="button-purple step-changer request__button" style="margin-top: 1.25rem;">Заполнить заявку</a>
+                                    <button type="button" class="button-purple step-changer request__button" style="margin-top: 1.25rem;">Заполнить заявку</button>
                             </div>
                             <div class="step2">
                                 <h3 class="main__txt-20" style="margin: 2.5rem 0 1.5rem 0;">Укажите ваши данные для связи</h3>
-                                <input class="request__input" type="name" name="name" placeholder="Ваше имя" required/>
-                                <input class="request__input" type="phone" name="phone" placeholder="Ваш телефон" required/>
+                                <input class="request__input" type="text" name="name" placeholder="Ваше имя" required/>
+                                <input class="request__input" type="tel" name="phone" placeholder="Ваш телефон" required/>
                                 <div class="form1__fill2"></div>
                                 <button type="submit" class="button-purple request__button"> Получить пробные лиды</button>
                             </div>

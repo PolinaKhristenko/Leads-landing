@@ -21,8 +21,8 @@ default:
                         <h1 class="subtitle"><?= $text ?></h1>
                         <h3 class="main__txt-20" style="margin-top: 2.5rem;">Укажите ваши данные для связи</h3>
                         <form action="" method="post" class="request__form">
-                            <input class="request__input" type="name" name="name" placeholder="Ваше имя" required/>
-                            <input class="request__input" type="phone" name="phone" placeholder="Ваш телефон" required/>
+                            <input class="request__input" type="text" name="name" placeholder="Ваше имя" required/>
+                            <input class="request__input" type="tel" name="phone" placeholder="Ваш телефон" required/>
                             <button type="submit" class="button-purple request__button"> Получить пробные лиды</button>
                         </form>
                         <p class="remark">*отправляя формы на данном сайте, вы даете согласие на обработку персональных данных в соответствии с 152-ФЗ</p>
