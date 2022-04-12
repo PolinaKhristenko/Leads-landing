@@ -156,8 +156,8 @@
                     <div class="how__sale">
                         <h5 class="subtitle">Получите скидку 15% на первый пакет лидов</h5>
                         <form action="#" method="post" class="how__form">
-                            <input type="name" name="name" placeholder="Ваше имя" required/>
-                            <input type="phone" name="phone" placeholder="Ваш телефон" required/>
+                            <input type="text" name="name" placeholder="Ваше имя" required/>
+                            <input type="tel" name="phone" placeholder="Ваш телефон" required/>
                             <button type="submit" class="button-purple" >Узнать стоимость</button>
                         </form>
                     </div>
