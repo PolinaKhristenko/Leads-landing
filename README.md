@@ -1,4 +1,4 @@
-# Leads reasponsive landing
+# Leads reasponsive landing (PHP, AJAX, jQuery)
 
 Was implemented using PHP for forms, header and footer includes, page logic. 
 jQuery is used for Ajax, main page Slider logic and form validation. 
